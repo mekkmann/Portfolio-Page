@@ -12,9 +12,7 @@
 
 | ID    | Name                                    |
 | :-:   | --------------------------------------- |
-| 099   | [Vlad](https://github.com/VladDrag)     |
 | 017   | [Pontus](https://github.com/mekkmann)   |
-| 815   | [Eirik](https://github.com/EiriksLys)   |
 	
 ## General Instructions
 
