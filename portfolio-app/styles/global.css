@@ -1,0 +1,119 @@
+html,
+body {
+    background-color: #313552;
+
+    font-family: monospace;
+
+    line-height: 2;
+}
+
+.color-66bfbf {
+    color: #66BFBF;
+}
+
+.color-EEE6CE {
+    color: #EEE6CE;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 0 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.aboutme {
+    align-items: center;
+}
+
+.techskills {
+    align-items: center;
+}
+
+.techGrid {
+    width: 100%;
+    margin: 0;
+}
+
+.techCard {
+    display: flex;
+    align-items: center;
+    background-color: #EEE6CE;
+}
+
+.timeline {
+    align-items: center;
+}
+
+.timelineDate {
+    font-size: large;
+    color: #11181C;
+}
+
+.projects {
+    align-items: center;
+}
+
+.projectGrid {
+    width: 100%;
+    margin: 0;
+}
+
+.projectCardLink {
+    text-decoration: none;
+    color: #EEE6CE;
+}
+.projectCardButton:hover {
+    background-color: #66BFBF;
+}
+
+.width70 {
+    width: 60%;
+}
+
+.contact {
+    align-items: center;
+}
+
+.linkGrid {
+    display: flex;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.arrow {
+    filter: invert(0.5);
+}
+
+.arrow:hover {
+    filter: invert(1);
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+.projectGridItem {
+    max-width: 35% ;
+}
