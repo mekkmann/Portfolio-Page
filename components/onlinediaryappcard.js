@@ -1,7 +1,7 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 export const ODACard = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card variant="bordered" css={{ w: "100%", h: "400px" }}>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
         src="/onlinediaryapp.herokuapp.com_.png"

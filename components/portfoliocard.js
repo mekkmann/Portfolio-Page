@@ -1,10 +1,10 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
 export const PortfolioCard = () => (
-  <Card css={{ w: "100%", h: "400px" }}>
+  <Card variant="bordered" css={{ w: "100%", h: "400px" }}>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://nextui.org/images/card-example-4.jpeg"
+        src="/pontusliljekvistportfolio.herokuapp.com_.png"
         objectFit="cover"
         width="100%"
         height="100%"
@@ -53,7 +53,7 @@ export const PortfolioCard = () => (
                 </Text>
               </Button>
             </a>
-            <a href="https://fabryca.no/"
+            <a href="https://pontusliljekvistportfolio.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="projectCardLink">
