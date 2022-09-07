@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, Element } from 'react-scroll';
-import { Text, Grid, Card, Row, Col, Button, Container } from '@nextui-org/react'
+import { Text, Grid, Container } from '@nextui-org/react'
 import Zoom from 'react-reveal/Zoom';
 import Image from 'next/image';
 import { FabrycaCard } from './fabrycacard';
 import { ODACard } from './onlinediaryappcard';
 import { PortfolioCard } from './portfoliocard';
+import { PHCard } from './placeholderprojectcard';
 
 const Projects = () => {
     return (
@@ -29,10 +30,10 @@ const Projects = () => {
                                 <PortfolioCard />
                             </Grid>
                             <Grid xs={6} >
-                                <FabrycaCard />
+                                <PHCard />
                             </Grid>
                             <Grid xs={6} >
-                                <FabrycaCard />
+                                <PHCard />
                             </Grid>
 
                         </Grid.Container>
