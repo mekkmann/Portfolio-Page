@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Element } from 'react-scroll';
 import { Text, } from '@nextui-org/react';
+import Image from 'next/image';
 
 import Zoom from 'react-reveal/Zoom';
 import Jump from "react-reveal/Jump";
@@ -27,11 +28,11 @@ const Timeline = () => {
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<SchoolRoundedIcon />}
                     >
-                        <Text h3 className="timelineTitle">Dr. Angela Yu's Python Bootcamp</Text>
+                        <Text h3 className="timelineTitle">Dr. Angela Yu&apos;s Python Bootcamp</Text>
                         <Text h4 className="timelineSubtitle">At Home</Text>
                         <Text b>
                             A 100-day course on Python. Where I got the chance to familiarize myself with programming concepts and slightly more advanced things.
-                            I haven't had the time to finish it yet, but in due time I will.
+                            I haven&apos;t had the time to finish it yet, but in due time I will.
                         </Text>
                         <Text>2022 - Present</Text>
                     </VerticalTimelineElement>
@@ -47,7 +48,7 @@ const Timeline = () => {
                         <Text b>
                             A 3-month high-intensity bootcamp where we learned C#, .NET, JS, ReactJS, Databases, Azure, Deployment, CI, TDD, AGILE, Mob Programming and so much more.
                             <br /> <br />
-                            SALT provides an amazing opportunity to change your life, as long as you're prepared to truly give it your ALL, then this course is for you!
+                            SALT provides an amazing opportunity to change your life, as long as you&apos;re prepared to truly give it your ALL, then this course is for you!
                             <br /> <br />
                             If this sounds interesting, <a href="https://salt.study/" target="_blank"
               rel="noopener noreferrer">apply here</a>
@@ -65,7 +66,7 @@ const Timeline = () => {
                         <Text h3 className="timelineTitle">Junior Developer, SALT</Text>
                         <Text h4 className="timelineSubtitle">SALT, Stockholm</Text>
                         <Text b>
-                            After graduating from SALT's bootcamp, I began my work with them as a consultant.
+                            After graduating from SALT&apos;s bootcamp, I began my work with them as a consultant.
                         </Text>
                         <Text> 09/01-22 - Present</Text>
                     </VerticalTimelineElement>
@@ -77,15 +78,15 @@ const Timeline = () => {
                         icon={<QuestionMarkRoundedIcon />}
                     >
                         <Text h3 className="timelineTitle">What does the future hold..?</Text>
-                        <Text h4 className="timelineSubtitle">I'm currently awaiting placement</Text>
+                        <Text h4 className="timelineSubtitle">I&apos;m currently awaiting placement</Text>
                         <Text b>
-                            Who knows, it might be your company I'm working for
+                            Who knows, it might be your company I&apos;m working for
                             <br />
-                            Don't be shy, <a href="mailto:sales@salt-sthlm.com"
+                            Don&apos;t be shy, <a href="mailto:sales@salt-sthlm.com"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             >
-                                                tell SALT you're on the hunt
+                                                tell SALT you&apos;re on the hunt
                                             </a>
 
                         </Text>
@@ -94,7 +95,7 @@ const Timeline = () => {
                 </VerticalTimeline>
 
                 <Link to="projects" spy={true} smooth={true}>
-                    <img src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" />
+                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100}/>
                 </Link>
             </div>
         </Element>

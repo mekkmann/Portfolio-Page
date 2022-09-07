@@ -40,7 +40,7 @@ const Projects = () => {
 
                 </Zoom>
                 <Link to="contact" spy={true} smooth={true}>
-                    <img src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" />
+                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100}/>
                 </Link>
             </div>
         </Element>

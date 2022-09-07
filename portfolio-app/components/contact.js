@@ -14,7 +14,7 @@ const Contact = () => {
                     <Text h2 size={"2.5rem"} className="color-66bfbf">Contact Me</Text>
                     <Text b className="color-EEE6CE">Hello again</Text>
                     <Text b className="color-EEE6CE">Thank you kindly for looking through the entire page</Text>
-                    <Text b className="color-EEE6CE">Just click the icon below and you'll be able to send me an email</Text>
+                    <Text b className="color-EEE6CE">Just click the icon below and you&apos;ll be able to send me an email</Text>
                     <br />
                     <a
                         href="mailto:alex.p.liljekvist@gmail.com"
@@ -29,7 +29,7 @@ const Contact = () => {
 
                 </Zoom>
                 <Link to="intro" spy={true} smooth={true}>
-                    <img src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow rotate180" />
+                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow rotate180" width={100} height={100}/>
                 </Link>
             </div>
         </Element>

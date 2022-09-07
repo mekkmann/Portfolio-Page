@@ -1,10 +1,19 @@
 html,
 body {
     background-color: #313552;
-
+    
     font-family: monospace;
-
+    
     line-height: 2;
+}
+.top-cloud {
+    align-self: flex-end;
+    margin-right: 10vw;
+}
+
+.bottom-cloud {
+    align-self: flex-start;
+    margin-left: 10vw;
 }
 
 .color-66bfbf {
@@ -15,15 +24,6 @@ body {
     color: #EEE6CE;
 }
 
-.top-cloud {
-    align-self: flex-end;
-    margin-right: 10vw;
-}
-
-.bottom-cloud {
-    align-self: flex-start;
-    margin-left: 10vw;
-}
 
 .underline {
     text-decoration: underline;
