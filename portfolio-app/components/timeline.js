@@ -49,10 +49,11 @@ const Timeline = () => {
                             <br /> <br />
                             SALT provides an amazing opportunity to change your life, as long as you're prepared to truly give it your ALL, then this course is for you!
                             <br /> <br />
-                            If this sounds interesting, <a href="https://salt.study/">apply here</a>
+                            If this sounds interesting, <a href="https://salt.study/" target="_blank"
+              rel="noopener noreferrer">apply here</a>
                             
                         </Text>
-                        <Text> - </Text>
+                        <Text> 05/02-22 - 08/25-22  </Text>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
@@ -80,7 +81,7 @@ const Timeline = () => {
                         <Text b>
                             Who knows, it might be your company I'm working for
                             <br />
-                            Don't be shy <a href="mailto:sales@salt-sthlm.com"
+                            Don't be shy, <a href="mailto:sales@salt-sthlm.com"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             >

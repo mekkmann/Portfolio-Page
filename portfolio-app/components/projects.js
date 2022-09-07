@@ -17,7 +17,7 @@ const Projects = () => {
                     <Text h2 size={"2.5rem"} className="color-66bfbf">Projects</Text>
                 </Zoom>
                 <Zoom>
-                    <Container className='width70'>
+                    <Container className='width50'>
                         <Grid.Container gap={2} justify="center" className="projectGrid">
                             <Grid xs={6} >
                                 <FabrycaCard />

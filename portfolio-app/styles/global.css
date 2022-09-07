@@ -15,6 +15,15 @@ body {
     color: #EEE6CE;
 }
 
+.top-cloud {
+    align-self: flex-end;
+    margin-right: 10vw;
+}
+
+.bottom-cloud {
+    align-self: flex-start;
+    margin-left: 10vw;
+}
 
 .underline {
     text-decoration: underline;
@@ -77,8 +86,8 @@ body {
     background-color: #66BFBF;
 }
 
-.width70 {
-    width: 60%;
+.width50 {
+    width: 50%;
 }
 
 .contact {
