@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Element } from 'react-scroll';
 import { Text, Container, Grid, Card } from '@nextui-org/react';
 import Zoom from 'react-reveal/Zoom';
+import Image from 'next/image';
 
 const TechSkills = () => {
     return (
@@ -81,7 +82,7 @@ const TechSkills = () => {
 
 
                 <Link to="timeline" spy={true} smooth={true}>
-                    <img src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" />
+                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100}/>
                 </Link>
             </div>
         </Element>

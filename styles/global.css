@@ -1,20 +1,11 @@
 html,
 body {
     background-color: #313552;
-
+    
     font-family: monospace;
-
+    
     line-height: 2;
 }
-
-.color-66bfbf {
-    color: #66BFBF;
-}
-
-.color-EEE6CE {
-    color: #EEE6CE;
-}
-
 .top-cloud {
     align-self: flex-end;
     margin-right: 10vw;
@@ -25,9 +16,19 @@ body {
     margin-left: 10vw;
 }
 
+.color-66bfbf {
+    color: #66BFBF;
+}
+
+.color-EEE6CE {
+    color: #EEE6CE;
+}
+
+
 .underline {
     text-decoration: underline;
 }
+
 
 .section {
     min-height: 100vh;
