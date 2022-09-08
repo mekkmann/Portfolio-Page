@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 // TODO: Add hamburger menu to easily jump between sections
 import Intro from '../components/intro';
