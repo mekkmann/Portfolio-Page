@@ -54,7 +54,7 @@ const Timeline = () => {
               rel="noopener noreferrer">apply here</a>
                             
                         </Text>
-                        <Text> 05/02-22 - 08/25-22  </Text>
+                        <Text> 05/02-22 - 07/25-22  </Text>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
