@@ -29,13 +29,6 @@ const Projects = () => {
                             <Grid xs={9} >
                                 <PortfolioCard />
                             </Grid>
-                            <Grid xs={6} >
-                                <PHCard />
-                            </Grid>
-                            <Grid xs={6} >
-                                <PHCard />
-                            </Grid>
-
                         </Grid.Container>
                     </Container>
 
