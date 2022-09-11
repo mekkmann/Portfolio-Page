@@ -53,27 +53,6 @@ export const PortfolioCard = () => (
                 </Text>
               </Button>
             </a>
-            <a href="https://pontusliljekvistportfolio.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="projectCardLink">
-              <Button
-                flat
-                auto
-                rounded
-                css={{ color: "#94f9f0", bg: "#94f9f026" }}
-                className="projectCardButton"
-              >
-                <Text
-                  css={{ color: "#EEE6CE" }}
-                  size={12}
-                  weight="bold"
-                  transform="uppercase"
-                >
-                  Live
-                </Text>
-              </Button>
-            </a>
           </Row>
         </Col>
     </Card.Footer>

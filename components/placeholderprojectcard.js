@@ -69,6 +69,7 @@ export const PHCard = () => (
                   size={12}
                   weight="bold"
                   transform="uppercase"
+                  disabled
                 >
                   Live
                 </Text>
