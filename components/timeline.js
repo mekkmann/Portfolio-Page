@@ -44,11 +44,11 @@ const Timeline = () => {
                         icon={<SchoolRoundedIcon />}
                     >
                         <Text h3 className="timelineTitle">.NET Full Stack Bootcamp, School of Applied Technology</Text>
-                        <Text h4 className="timelineSubtitle">SALT, Stockholm</Text>
+                        <Text h4 className="timelineSubtitle">&lt;/SALT&gt;, Stockholm</Text>
                         <Text b>
                             A 3-month high-intensity bootcamp where we learned C#, .NET, JS, ReactJS, Databases, Azure, Deployment, CI, TDD, AGILE, Mob Programming and so much more.
                             <br /> <br />
-                            SALT provides an amazing opportunity to change your life, as long as you&apos;re prepared to truly give it your ALL, then this course is for you!
+                            &lt;/SALT&gt; provides an amazing opportunity to change your life, as long as you&apos;re prepared to truly give it your ALL, then this course is for you!
                             <br /> <br />
                             If this sounds interesting, <a href="https://salt.study/" target="_blank"
               rel="noopener noreferrer">apply here</a>
@@ -63,10 +63,10 @@ const Timeline = () => {
                         iconStyle={{ background: '#EEE6CE', color: '#11181C' }}
                         icon={<WorkRoundedIcon />}
                     >
-                        <Text h3 className="timelineTitle">Junior Developer, SALT</Text>
-                        <Text h4 className="timelineSubtitle">SALT, Stockholm</Text>
+                        <Text h3 className="timelineTitle">Junior Developer, &lt;/SALT&gt;</Text>
+                        <Text h4 className="timelineSubtitle">&lt;/SALT&gt;, Stockholm</Text>
                         <Text b>
-                            After graduating from SALT&apos;s bootcamp, I began my work with them as a consultant.
+                            After graduating from &lt;/SALT&gt;&apos;s bootcamp, I began my work with them as a consultant.
                         </Text>
                         <Text> 09/01-22 - Present</Text>
                     </VerticalTimelineElement>
@@ -86,7 +86,7 @@ const Timeline = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             >
-                                                tell SALT you&apos;re on the hunt
+                                                tell &lt;/SALT&gt; you&apos;re on the hunt
                                             </a>
 
                         </Text>
