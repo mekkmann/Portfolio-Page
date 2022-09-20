@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { FabrycaCard } from './fabrycacard';
 import { ODACard } from './onlinediaryappcard';
 import { PortfolioCard } from './portfoliocard';
-import { PHCard } from './placeholderprojectcard';
 
 const Projects = () => {
     return (

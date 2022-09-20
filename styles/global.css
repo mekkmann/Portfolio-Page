@@ -1,21 +1,14 @@
+/* CONSTANTS */
 html,
 body {
     background-color: #313552;
-    
+
     font-family: monospace;
-    
+
     line-height: 2;
-}
-.top-cloud {
-    align-self: flex-end;
-    margin-right: 10vw;
-}
 
-.bottom-cloud {
-    align-self: flex-start;
-    margin-left: 10vw;
+    min-width: fit-content;
 }
-
 .color-66bfbf {
     color: #66BFBF;
 }
@@ -24,106 +17,341 @@ body {
     color: #EEE6CE;
 }
 
+/* MICROSOFT MEDIUM BREAKPOINT */
+@media screen and (max-width: 1007px) {
+    .top-cloud {
+        align-self: flex-end;
+        margin-right: 10vw;
+    }
 
-.underline {
-    text-decoration: underline;
+    .bottom-cloud {
+        align-self: flex-start;
+        margin-left: 10vw;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .section {
+        min-height: 100vh;
+        padding: 0 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro {
+        text-align: center;
+        align-items: center;
+        padding: 10vh;
+    }
+    .arrow {
+        filter: invert(0.5);
+    }
+
+    .arrow:hover {
+        filter: invert(1);
+    }
+
+    .rotate180 {
+        transform: rotate(180deg);
+    }
+
+    .invert {
+        filter: invert(1);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 0;
+    }
+
+    /* ABOUT ME */
+    .aboutme {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* TECH SKILLS */
+    .techskills {
+        align-items: center;
+    }
+
+    .techGrid {
+        width: 100%;
+        margin: 0;
+    }
+
+    .techCard {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: #EEE6CE;
+    }
+
+    /* TIMELINE */
+    .timeline {
+        align-items: center;
+    }
+
+    .timelineDate {
+        font-size: large;
+        color: #11181C;
+    }
+
+    /* PROJECTS */
+
+    .projects {
+        align-items: center;
+    }
+
+    .projectGrid {
+        width: 100%;
+        margin: 0;
+    }
+
+    .projectCardLink {
+        text-decoration: none;
+        color: #EEE6CE;
+    }
+
+    .projectCardButton:hover {
+        background-color: #66BFBF;
+    }
+
+    /* CONTACT */
+    .contact {
+        align-items: center;
+        text-align: center;
+    }
 }
 
+/* MICROSOFT SMALL BREAKPOINT */
+@media (max-width: 639px) {
+    .top-cloud {
+        align-self: flex-end;
+        margin-right: 10vw;
+    }
 
-.section {
-    min-height: 100vh;
-    padding: 0 0 1rem 0;
-    display: flex;
-    flex-direction: column;
+    .bottom-cloud {
+        align-self: flex-start;
+        margin-left: 10vw;
+    }
+
+
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .section {
+        min-height: 100vh;
+        /* mobile viewport bug fix */
+        /* min-height: -webkit-fill-available; */
+        padding: 0 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro {
+        text-align: center;
+        align-items: center;
+        padding: 10vh;
+    }
+    .arrow {
+        filter: invert(0.5);
+    }
+
+    .arrow:hover {
+        filter: invert(1);
+    }
+
+    .rotate180 {
+        transform: rotate(180deg);
+    }
+
+    .invert {
+        filter: invert(1);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 0;
+    }
+
+    /* ABOUT ME */
+    .aboutme {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* TECH SKILLS */
+    .techskills {
+        align-items: center;
+    }
+
+    .techGrid {
+        width: 100%;
+        margin: 0;
+    }
+
+    .techCard {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: #EEE6CE;
+    }
+
+    /* TIMELINE */
+    .timeline {
+        align-items: center;
+    }
+
+    .timelineDate {
+        font-size: large;
+        color: #11181C;
+    }
+
+    /* PROJECTS */
+
+    .projects {
+        align-items: center;
+    }
+
+    .projectGrid {
+        width: 100%;
+        margin: 0;
+    }
+
+    .projectCardLink {
+        text-decoration: none;
+        color: #EEE6CE;
+    }
+
+    .projectCardButton:hover {
+        background-color: #66BFBF;
+    }
+
+    /* CONTACT */
+    .contact {
+        align-items: center;
+        text-align: center;
+    }
 }
 
-.intro {
-    align-items: center;
-    padding-top: 10vh;
-}
+/* MICROSOFT LARGE BREAKPOINT */
+/* I THINK THIS ONE IS OKAY */
+@media screen and (min-width: 1008px) {
 
-.aboutme {
-    align-items: center;
-}
+    .top-cloud {
+        align-self: flex-end;
+        margin-right: 10vw;
+    }
 
-.techskills {
-    align-items: center;
-}
+    .bottom-cloud {
+        align-self: flex-start;
+        margin-left: 10vw;
+    }
 
-.techGrid {
-    width: 100%;
-    margin: 0;
-}
+    .underline {
+        text-decoration: underline;
+    }
 
-.techCard {
-    display: flex;
-    align-items: center;
-    background-color: #EEE6CE;
-}
+    .section {
+        min-height: 100vh;
+        padding: 0 0 1rem 0;
+        display: flex;
+        flex-direction: column;
+    }
 
-.timeline {
-    align-items: center;
-}
+    .intro {
+        align-items: center;
+        padding-top: 10vh;
+    }
 
-.timelineDate {
-    font-size: large;
-    color: #11181C;
-}
+    .aboutme {
+        align-items: center;
+    }
 
-.projects {
-    align-items: center;
-}
+    .techskills {
+        align-items: center;
+    }
 
-.projectGrid {
-    width: 100%;
-    margin: 0;
-}
+    .techGrid {
+        width: 100%;
+        margin: 0;
+    }
 
-.projectCardLink {
-    text-decoration: none;
-    color: #EEE6CE;
-}
-.projectCardButton:hover {
-    background-color: #66BFBF;
-}
+    .techCard {
+        display: flex;
+        align-items: center;
+        background-color: #EEE6CE;
+    }
 
-.width50 {
-    width: 50%;
-}
+    .timeline {
+        align-items: center;
+    }
 
-.contact {
-    align-items: center;
-}
+    .timelineDate {
+        font-size: large;
+        color: #11181C;
+    }
 
-.linkGrid {
-    display: flex;
-}
+    .projects {
+        align-items: center;
+    }
 
-.width100 {
-    width: 100%;
-}
+    .projectGrid {
+        width: 100%;
+        margin: 0;
+    }
 
-.arrow {
-    filter: invert(0.5);
-}
+    .projectCardLink {
+        text-decoration: none;
+        color: #EEE6CE;
+    }
 
-.arrow:hover {
-    filter: invert(1);
-}
+    .projectCardButton:hover {
+        background-color: #66BFBF;
+    }
 
-.rotate180 {
-    transform: rotate(180deg);
-}
+    .width50 {
+        width: 50%;
+    }
+    .width100 {
+        width: 100%;
+    }
 
-.invert {
-    filter: invert(1);
-}
+    .contact {
+        align-items: center;
+    }
 
-.footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 1em 0;
-}
-.projectGridItem {
-    max-width: 35% ;
+    .linkGrid {
+        display: flex;
+    }
+
+    .arrow {
+        filter: invert(0.5);
+    }
+
+    .arrow:hover {
+        filter: invert(1);
+    }
+
+    .rotate180 {
+        transform: rotate(180deg);
+    }
+
+    .invert {
+        filter: invert(1);
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 0;
+    }
+
 }
