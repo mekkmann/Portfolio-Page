@@ -15,8 +15,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
     return (
-        <Element name="timeline">
-            <div className="section timeline">
+        <Element name="timeline" className="section timeline">
                 <hr />
                 <br />
                 <Text h2 size={"2.5rem"} className="color-66bfbf">Timeline</Text>
@@ -50,9 +49,10 @@ const Timeline = () => {
                             <br /> <br />
                             &lt;/SALT&gt; provides an amazing opportunity to change your life, as long as you&apos;re prepared to truly give it your ALL, then this course is for you!
                             <br /> <br />
-                            If this sounds interesting, <a href="https://salt.study/" target="_blank"
-              rel="noopener noreferrer">apply here</a>
-                            
+                            If this sounds interesting, <a href="https://salt.study/" 
+                                                           target="_blank"
+                                                           rel="noopener noreferrer">apply here</a>
+
                         </Text>
                         <Text> 05/02-22 - 07/25-22  </Text>
                     </VerticalTimelineElement>
@@ -83,11 +83,11 @@ const Timeline = () => {
                             Who knows, it might be your company I&apos;m working for
                             <br />
                             Don&apos;t be shy, <a href="mailto:sales@salt-sthlm.com"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            >
-                                                tell &lt;/SALT&gt; you&apos;re on the hunt
-                                            </a>
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                tell &lt;/SALT&gt; you&apos;re on the hunt
+                            </a>
 
                         </Text>
                     </VerticalTimelineElement>
@@ -95,9 +95,8 @@ const Timeline = () => {
                 </VerticalTimeline>
 
                 <Link to="projects" spy={true} smooth={true}>
-                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100}/>
+                    <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100} />
                 </Link>
-            </div>
         </Element>
     );
 };

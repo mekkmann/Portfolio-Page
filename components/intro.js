@@ -6,8 +6,7 @@ import { Link, Element } from "react-scroll";
 
 const Intro = () => {
     return (
-        <Element name="intro">
-            <div className="section intro" >
+        <Element name="intro" className="section intro">
                 <div className="top-cloud" >
                     <Image src="/cloud.png" alt="Image of a Cartoon Cloud" width={150} height={50} />
                 </div>
@@ -18,12 +17,10 @@ const Intro = () => {
                 <div className="bottom-cloud">
                     <Image src="/cloud.png" alt="Image of a Cartoon Cloud" width={150} height={50} />
                 </div>
-                {/* <iframe src="https://giphy.com/embed/RbDKaczqWovIugyJmW" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> */}
-
+                
                 <Link to="aboutme" spy={true} smooth={true} >
                     <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100} />
                 </Link>
-            </div>
         </Element>
     );
 };

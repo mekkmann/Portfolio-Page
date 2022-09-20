@@ -6,8 +6,7 @@ import Image from 'next/image';
 
 const AboutMe = () => {
     return (
-        <Element name="aboutme">
-            <div className="section aboutme">
+        <Element name="aboutme" className="section aboutme">
                 <Zoom>
                     <iframe src="https://giphy.com/embed/c6oXjMBsuCWe3nEK95" width="480" height="353" frameBorder="0" className="giphy-embed" />
                     <br />
@@ -24,7 +23,6 @@ const AboutMe = () => {
                 <Link to="techskills" spy={true} smooth={true}>
                     <Image src="/down_icon-icons.com_61209.png" alt="Outlined arrow for navigational purposes" className="arrow" width={100} height={100} />
                 </Link>
-            </div>
         </Element>
     );
 };

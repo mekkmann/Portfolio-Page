@@ -23,7 +23,7 @@ const TechSkills = () => {
                                 <Card.Divider />
                                 <Card.Body>
                                     <Text b>C#</Text>
-                                    <Text b>JavaScript</Text>
+                                    <Text b>JavaScript / TypeScript</Text>
                                     <Text b>Python</Text>
                                 </Card.Body>
                             </Card>
@@ -73,7 +73,9 @@ const TechSkills = () => {
                                     <Text b>Azure</Text>
                                     <Text b>Docker</Text>
                                     <Text b>Heroku</Text>
-                                    <Text b>DI / MOB / AGILE / SCRUM / TDD</Text>
+                                    <Text b>AGILE / SCRUM</Text>
+                                    <Text b>MOB / TDD</Text>
+
                                 </Card.Body>
                             </Card>
                     </Grid>
