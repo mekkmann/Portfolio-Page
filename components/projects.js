@@ -6,6 +6,8 @@ import Image from 'next/image';
 import { FabrycaCard } from './fabrycacard';
 import { ODACard } from './onlinediaryappcard';
 import { PortfolioCard } from './portfoliocard';
+import { TicTacToeCard } from './tictactoecard';
+import { SMQRACard } from './swemotivationalquotesapicard';
 
 const Projects = () => {
     return (
@@ -27,6 +29,12 @@ const Projects = () => {
                             </Grid>
                             <Grid xs={9} >
                                 <PortfolioCard />
+                            </Grid>
+                            <Grid xs={6} >
+                                <SMQRACard />
+                            </Grid>
+                            <Grid xs={6} >
+                                <TicTacToeCard />
                             </Grid>
                         </Grid.Container>
                     </Container>

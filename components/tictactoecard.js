@@ -1,14 +1,14 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
-export const PortfolioCard = () => (
+export const TicTacToeCard = () => (
   <Card variant="bordered" css={{ w: "100%", h: "400px" }}>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="/pontusliljekvistportfolio.herokuapp.com_.png"
-        objectFit="cover"
+        src="/tictactoescreenshot.jpg"
+        objectFit="fit"
         width="100%"
         height="100%"
-        alt="Screenshot of Portfolio Page"
+        alt="Screenshot of TicTacToe"
       />
     </Card.Body>
     <Card.Footer
@@ -24,15 +24,15 @@ export const PortfolioCard = () => (
         <Col>
           <Row>
             <Col>
-              <Text b color="#EEE6CE" size={"1.5rem"}>
-                Portfolio Page
+              <Text b color="#11181C" size={"1.5rem"}>
+                Tic Tac Toe with a twist
               </Text>
             </Col>
           </Row>
         </Col>
         <Col>
           <Row justify="space-around">
-            <a href="https://github.com/mekkmann/Portfolio-Page"
+            <a href="https://github.com/mekkmann/Unity-Tic-Tac-Toe"
               target="_blank"
               rel="noopener noreferrer"
               className="projectCardLink">
@@ -40,16 +40,38 @@ export const PortfolioCard = () => (
                 flat
                 auto
                 rounded
-                css={{ color: "#94f9f0", bg: "#94f9f026", marginTop: "" }}
+                css={{ color: "#94f9f0", bg: "#EEE6CE"}}
                 className="projectCardButton"
               >
                 <Text
-                  css={{ color: "#EEE6CE" }}
+                  css={{ color: "#11181C" }}
                   size={12}
                   weight="bold"
                   transform="uppercase"
                 >
                   GitHub
+                </Text>
+              </Button>
+              
+            </a>
+            <a href="https://mekkmann.itch.io/tic-tac-toe-twist"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="projectCardLink">
+              <Button
+                flat
+                auto
+                rounded
+                css={{ color: "#94f9f0", bg: "#EEE6CE" }}
+                className="projectCardButton"
+              >
+                <Text
+                  css={{ color: "#11181C" }}
+                  size={12}
+                  weight="bold"
+                  transform="uppercase"
+                >
+                  Live 
                 </Text>
               </Button>
             </a>

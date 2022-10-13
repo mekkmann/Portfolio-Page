@@ -1,14 +1,14 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
-export const PortfolioCard = () => (
+export const SMQRACard = () => (
   <Card variant="bordered" css={{ w: "100%", h: "400px" }}>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="/pontusliljekvistportfolio.herokuapp.com_.png"
-        objectFit="cover"
+        src="/apipic.png"
+        objectFit="fit"
         width="100%"
         height="100%"
-        alt="Screenshot of Portfolio Page"
+        alt="Screenshot of TicTacToe"
       />
     </Card.Body>
     <Card.Footer
@@ -25,7 +25,7 @@ export const PortfolioCard = () => (
           <Row>
             <Col>
               <Text b color="#EEE6CE" size={"1.5rem"}>
-                Portfolio Page
+                Swedish Motivational Quotes API
               </Text>
             </Col>
           </Row>
@@ -40,11 +40,11 @@ export const PortfolioCard = () => (
                 flat
                 auto
                 rounded
-                css={{ color: "#94f9f0", bg: "#94f9f026", marginTop: "" }}
+                css={{ color: "#94f9f0", bg: "#EEE6CE"}}
                 className="projectCardButton"
               >
                 <Text
-                  css={{ color: "#EEE6CE" }}
+                  css={{ color: "#11181C" }}
                   size={12}
                   weight="bold"
                   transform="uppercase"
