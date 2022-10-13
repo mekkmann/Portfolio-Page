@@ -8,7 +8,7 @@ export const SMQRACard = () => (
         objectFit="fit"
         width="100%"
         height="100%"
-        alt="Screenshot of TicTacToe"
+        alt="An image with the text API in blue with a few cogs to the left"
       />
     </Card.Body>
     <Card.Footer
