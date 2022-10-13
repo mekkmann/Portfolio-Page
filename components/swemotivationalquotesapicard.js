@@ -32,7 +32,7 @@ export const SMQRACard = () => (
         </Col>
         <Col>
           <Row justify="space-around">
-            <a href="https://github.com/mekkmann/Portfolio-Page"
+            <a href="https://github.com/mekkmann/SwedishMotivationalQuotesMinimalRestApi"
               target="_blank"
               rel="noopener noreferrer"
               className="projectCardLink">
