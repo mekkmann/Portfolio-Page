@@ -106,13 +106,14 @@ const Timeline = () => {
           icon={<QuestionMarkRoundedIcon />}
         >
           <Text h3 className="timelineTitle">
-            What does the future hold..?
+            Developer, BitPeople Norway
           </Text>
           <Text h4 className="timelineSubtitle">
-            I&apos;m currently looking for work
+            Oslo, Norway
           </Text>
           <Text b>
-            Who knows, it might be your company I&apos;m working for
+            
+            {/* Who knows, it might be your company I&apos;m working for
             <br />
             Don&apos;t be shy,{" "}
             <a
@@ -121,7 +122,7 @@ const Timeline = () => {
               rel="noopener noreferrer"
             >
               send me message
-            </a>
+            </a> */}
           </Text>
         </VerticalTimelineElement>
       </VerticalTimeline>
