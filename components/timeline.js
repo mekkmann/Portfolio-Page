@@ -103,7 +103,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#EEE6CE", color: "#11181C" }}
           iconStyle={{ background: "#EEE6CE", color: "#11181C" }}
-          icon={<QuestionMarkRoundedIcon />}
+          icon={<WorkRoundedIcon />}
         >
           <Text h3 className="timelineTitle">
             Developer, BitPeople Norway
