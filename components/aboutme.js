@@ -12,7 +12,7 @@ const AboutMe = () => {
                     <br />
                     <Text h2 size={"2.5rem"} className="color-66bfbf">About Me</Text>
                     <br />
-                    <Text b className="color-EEE6CE">I&apos;m Pontus Liljekvist and I&apos;m currently based in Stockholm, Sweden</Text>
+                    <Text b className="color-EEE6CE">I&apos;m Pontus Liljekvist and I&apos;m currently based in Oslo, Norway</Text>
                     <Text b className="color-EEE6CE">I (7 y/o) got into programming watching my older cousin (14 y/o) starting GameDev</Text>
                     <Text b className="color-EEE6CE">It was simple, a red dot moving around the screen</Text>
                     <Text b className="color-EEE6CE">After that, I was hooked, I knew I wanted to create</Text>
