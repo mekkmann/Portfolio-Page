@@ -12,7 +12,7 @@ const Intro = () => {
                 </div>
                 <Text h1 size={"5.625rem"} className="color-66bfbf">I&apos;m Pontus Liljekvist</Text>
                 <br />
-                <Text h2 size={"2.5rem"} className="color-66bfbf">Full Stack <span className="underline">Developer</span> </Text>
+                <Text h2 size={"2.5rem"} className="color-66bfbf">Full Stack / Game <span className="underline">Developer</span> </Text>
                 <br />
                 <div className="bottom-cloud">
                     <Image src="/cloud.png" alt="Image of a Cartoon Cloud" width={150} height={50} />
