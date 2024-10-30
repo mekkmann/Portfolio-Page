@@ -41,10 +41,8 @@ const Timeline = () => {
           <Text b>
             A 100-day course on Python. Where I got the chance to familiarize
             myself with programming concepts and slightly more advanced things.
-            I haven&apos;t had the time to finish it yet, but in due time I
-            will.
           </Text>
-          <Text>2022 - Present</Text>
+          <Text>2022</Text>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -63,19 +61,6 @@ const Timeline = () => {
             A 3-month high-intensity bootcamp where we learned C#, .NET, JS,
             ReactJS, Databases, Azure, Deployment, CI, TDD, AGILE, Mob
             Programming and so much more.
-            <br /> <br />
-            &lt;/SALT&gt; provides an amazing opportunity to change your life,
-            as long as you&apos;re prepared to truly give it your ALL, then this
-            course is for you!
-            <br /> <br />
-            If this sounds interesting,{" "}
-            <a
-              href="https://salt.study/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              apply here
-            </a>
           </Text>
           <Text> 05/02-22 - 07/25-22 </Text>
         </VerticalTimelineElement>
