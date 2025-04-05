@@ -3,11 +3,8 @@ import { Link, Element } from "react-scroll";
 import { Text, Grid, Container } from "@nextui-org/react";
 import Zoom from "react-reveal/Zoom";
 import Image from "next/image";
-import { FabrycaCard } from "./fabrycacard";
-import { ODACard } from "./onlinediaryappcard";
-import { PortfolioCard } from "./portfoliocard";
-import { TicTacToeCard } from "./tictactoecard";
-import { SMQRACard } from "./swemotivationalquotesapicard";
+import { SonarScoutCard } from "./sonarscoutcard";
+import { ManFisherCard } from "./manfishercard";
 
 const Projects = () => {
   return (
@@ -23,21 +20,12 @@ const Projects = () => {
         <Zoom>
           <Container className="width50">
             <Grid.Container gap={2} justify="center" className="projectGrid">
-              {/* <Grid xs={6} >
-                                <FabrycaCard />
-                            </Grid>
-                            <Grid xs={6} >
-                                <ODACard />
-                            </Grid> */}
               <Grid xs={9}>
-                <TicTacToeCard />
+                <SonarScoutCard />
               </Grid>
               <Grid xs={9}>
-                <PortfolioCard />
+                <ManFisherCard />
               </Grid>
-              {/* <Grid xs={6} >
-                                <SMQRACard />
-                            </Grid> */}
             </Grid.Container>
           </Container>
         </Zoom>

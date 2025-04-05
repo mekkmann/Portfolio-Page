@@ -55,7 +55,7 @@ const Timeline = () => {
             .NET Full Stack Bootcamp, School of Applied Technology
           </Text>
           <Text h4 className="timelineSubtitle">
-            &lt;/SALT&gt;, Stockholm
+            Stockholm, Sweden
           </Text>
           <Text b>
             A 3-month high-intensity bootcamp where we learned C#, .NET, JS,
@@ -75,7 +75,7 @@ const Timeline = () => {
             Junior Developer, &lt;/SALT&gt;
           </Text>
           <Text h4 className="timelineSubtitle">
-            &lt;/SALT&gt;, Stockholm
+            Stockholm, Sweden
           </Text>
           <Text b>
             After graduating from &lt;/SALT&gt;&apos;s bootcamp, I began my work
@@ -97,17 +97,46 @@ const Timeline = () => {
             Oslo, Norway
           </Text>
           <Text b>
-            
-            {/* Who knows, it might be your company I&apos;m working for
+            System developer working with SAP Business One and the Service Layer
+          </Text>
+          <Text> 16/01-23 - 06/07-23</Text>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#EEE6CE", color: "#11181C" }}
+          iconStyle={{ background: "#EEE6CE", color: "#11181C" }}
+          icon={<QuestionMarkRoundedIcon />}
+        >
+          <Text h3 className="timelineTitle">
+            Unemployed Software Developer
+          </Text>
+          <Text h4 className="timelineSubtitle">
+            Stockholm, Sweden
+          </Text>
+          <Text b>
+            Currently studying game development and honing my skills as a software developer.
             <br />
-            Don&apos;t be shy,{" "}
+            I've even managed to release <a
+              href="https://store.steampowered.com/app/3137740/Sonar_Scout/"
+              target="_blank"
+              rel="noopener noreferrer">Sonar Scout
+            </a> and <a
+              href="https://schubox.itch.io/the-manfisher"
+              target="_blank"
+              rel="noopener noreferrer">The Manfisher
+            </a> with my lovely team.
+            <br />
+            Who knows, it might be your company or team I'm working for next!
+            <br />
+            Don't be shy,{" "}
             <a
               href="mailto:alex.p.liljekvist@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              send me message
-            </a> */}
+              send me a message
+            </a>{" ;)"}
           </Text>
         </VerticalTimelineElement>
       </VerticalTimeline>
@@ -121,7 +150,7 @@ const Timeline = () => {
           height={100}
         />
       </Link>
-    </Element>
+    </Element >
   );
 };
 
